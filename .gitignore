@@ -1,0 +1,4 @@
+# ignore all files underneath dec01, dec02, ...
+dec*/*
+# but not the source files
+!dec*/*.hs
