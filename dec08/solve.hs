@@ -88,8 +88,6 @@ interpretNumber mapping = undigits . map getDigit
   where
     getDigit = fromJust . (`elemIndex` validDigits) . mapDisplay mapping
 
--- converts list like [3,2,1] to int 123
-
 undigits :: [Int] -> Int
 -- converts list like [1,2,3] to int 123
 undigits = foldl (\t o -> 10 * t + o) 0
