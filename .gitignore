@@ -2,3 +2,4 @@
 dec*/*
 # but not the source files
 !dec*/*.hs
+!dec*/*.py
